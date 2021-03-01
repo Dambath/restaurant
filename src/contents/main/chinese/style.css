@@ -1,0 +1,24 @@
+.chinese {
+    padding: 120px 0;
+}
+.chinese-wrapper {
+    display: flex;
+    align-items: center;
+}
+.chinese__image {
+    width: 450px;
+}
+.chinese__text {
+    margin-left: 100px;
+}
+.chinese__desc {
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 25px;
+    margin-right: 40px;
+}
+.chinese__descs {
+    display: flex;
+    margin-bottom: 40px;
+}

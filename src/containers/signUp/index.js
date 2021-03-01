@@ -31,7 +31,11 @@ function SignUp(props) {
             initialValues={{ remember: true }}
             onFinish={onFinish}
             onFinishFailed={onFinishFailed}
+            style={{width: '500px', margin: '20vh auto'}}
             >
+            <Form.Item>
+                <h1 style={{textAlign: 'end', fontSize: '30px', fontWeight: 600 ,fontFamily: 'Montserrat'}}>Sign up</h1>            
+            </Form.Item>
             <Form.Item
                 label="Username"
                 name="name"

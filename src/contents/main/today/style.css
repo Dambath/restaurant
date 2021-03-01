@@ -1,0 +1,42 @@
+.today {
+    height: 600px;       
+    background-image: url("https://demos.hogash.com/dannys/wp-content/uploads/sites/4/2017/05/img_07.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover; 
+}
+.today__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+.today__text {
+    color: white;
+    letter-spacing: 3px;
+    font-size: 16px;
+    margin-bottom:30px;
+}
+.today__price {
+    color: white;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.today__button {
+    color: white;
+    background-color: inherit;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    font-size: 11px;
+    font-weight: 600;
+    border: none;
+    border-bottom: 3px solid white;
+    cursor: pointer;
+}
+.today__button:hover {
+    color: orange;
+    border-bottom: 3px solid orange;
+}

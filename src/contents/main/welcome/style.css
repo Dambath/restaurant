@@ -1,0 +1,49 @@
+.welcome {
+    padding: 100px 0;
+}
+.welcome-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.welcome__text {
+    width: 60%;
+}
+.welcome__title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: #999966;
+}
+.welcome__subtitle {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.welcome__quote {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.welcome__desc{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+.welcome__button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 13px;
+    border: none;
+    border-left: 3px solid black;
+    cursor: pointer;
+}
+.welcome__button:hover {
+    color: orange;
+    border-left: 3px solid orange;
+}

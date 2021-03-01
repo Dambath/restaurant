@@ -1,0 +1,63 @@
+.header{
+    padding: 10px 0;
+    background-color: #0B0D0F;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.container {
+    margin: 0 100px;
+}
+.header__novigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    cursor: pointer;
+}
+.header__navbars {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+}
+.header__navbars:hover {
+    color: orange;
+}
+.header__navbars:not(:last-child) {
+    margin-right: 40px;
+}
+.white-text {
+    color: white;
+    font-weight: 700;
+}
+.cart {
+    background-color: darkslategrey;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+.cart__price {
+    color: orange;
+}
+.grey-text {
+    color: black;
+    font-size: 10px;
+    font-weight: 700;
+}
+.header__button {
+    background-color: orange;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 17px;
+    cursor: pointer;
+}
+.header__button:hover {
+    background-color: rgba(255, 165, 0, .8);
+}

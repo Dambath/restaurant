@@ -1,0 +1,186 @@
+.tab-section {
+    background-color: rgba(65, 105, 255, .2);
+}
+.tabs-wrapper {
+    display: flex;
+}
+.tabs {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    padding: 80px 100px;
+    position: relative;
+    height: max-content;
+    top: -60px;
+}
+.tabs__littleTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #0a0a0a;
+}
+.tabs__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+.tab {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #0a0a0a;
+    cursor: pointer;
+}
+.tab:hover {
+    color: #A9A97F;
+}
+.tab_active {
+    color: #A9A97F;
+}
+.content_component1 {
+    width: 280px;
+    height: 280px;
+    border: 1.5px solid white;
+    background-image: url(https://www.steaklovers.menu/~imgview/elements/images/5ce7eadf3764d);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content_component1:hover {
+    border: 2px solid #c93;
+}
+.content_component2 {
+    width: 280px;
+    height: 280px;
+    border: 1.5px solid white;
+    background-image: url(https://st.depositphotos.com/1003814/4626/i/600/depositphotos_46267763-stock-photo-fried-chicken-fillets.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content_component2:hover {
+    border: 2px solid #c93;
+}
+.content_component3 {
+    width: 280px;
+    height: 280px;
+    border: 1.5px solid white;
+    background-image: url(https://s1.1zoom.me/big0/393/The_second_dishes_Meat_products_Potato_Vegetables_512719_1280x853.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content_component3:hover {
+    border: 2px solid #c93;
+}
+.content_component4 {
+    width: 280px;
+    height: 280px;
+    border: 1.5px solid white;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS-o-W2yFwFuUyZGFsQB7WLC_rvdcQKrfo-Q&usqp=CAU);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content_component4:hover {
+    border: 2px solid #c93;
+}
+.content_component5 {
+    width: 280px;
+    height: 280px;
+    border: 1.5px solid white;
+    background-image: url(https://w-dog.ru/wallpapers/5/2/523767756374725.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content_component5:hover {
+    border: 2px solid #c93;
+}
+.content_component6 {
+    width: 280px;
+    height: 280px;
+    border: 1.5px solid white;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWc-6BqnykvVP9iRGPr6Mkgyr1oHeAYXU-nQ&usqp=CAU);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content_component6:hover {
+    border: 2px solid #c93;
+}
+.content_component7 {
+    width: 280px;
+    height: 280px;
+    border: 1.5px solid white;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbzCMoPsPgM2_MKCuxBWtyompyUiJRbQQ8qA&usqp=CAU);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content_component7:hover {
+    border: 2px solid #c93;
+}
+.content__about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .7);
+    width: 280px;
+    height: 280px;
+}
+.content__button {
+    font-size: 14px;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: unset;
+    color: rgba(255, 255, 255, .7);
+    border: 2px solid rgba(255, 255, 255, .7);
+    cursor: pointer;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.content__button:hover {
+    color: #c93;
+    border: 2px solid #c93;
+}
+.content_name {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.content_price {
+    color: #c93;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.content {
+    display: none;
+}
+.content_active {
+    display: flex;
+    flex-wrap: wrap;
+}

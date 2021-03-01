@@ -1,0 +1,49 @@
+.menu {
+    background-color: #16191E;
+}
+.menu__title {
+    font-size: 56px;
+    color: #939363;
+    font-family: 'Great Vibes', cursive;
+}
+.menu_text {
+    margin-right: 100px;
+}
+.menu__subtitle {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.menu__desc {
+    color: #999999;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 25px;
+    width: 45%;
+}
+.menu__descs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.menu-wrapper {
+    display: flex;
+    align-items: center;
+}
+.menu__button {
+    background-color: #16191E;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 15px;
+    border: none;
+    border-left: 3px solid white;
+    cursor: pointer;
+}
+.menu__button:hover {
+    color: orange;
+    border-left: 3px solid orange;
+}
