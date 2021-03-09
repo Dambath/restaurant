@@ -10,6 +10,7 @@ import { SET_CURRENT_USER } from './actions/types';
 import * as types from './actions/types'
 import Main from './containers/main/index'
 import signOut from './sagas/authSaga'
+import Dashboard from './containers/dashboard/index'
 
 const store = configureStore();
 
@@ -31,6 +32,7 @@ function App() {
         <Route exact path='/signup' component={SignUp}/>
         <Route exact path='/login' component={LogIn} /> 
         <Route exact path='/main' component={Main}/>
+        <Route path='/dashboard' component={Dashboard} />
       </Switch>
     </Router>
   </Provider>   

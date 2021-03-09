@@ -8,7 +8,7 @@ function Tabs() {
         for (let i = 0; i < tabs.length; i++) {
             tabs[i].classList.remove('tab_active')
         }
-
+        console.log(document.getElementById(type + '_tab'))
         document.getElementById(type + '_tab').classList.add('tab_active')
 
         let contents = document.getElementsByClassName('content')
@@ -27,13 +27,13 @@ function Tabs() {
                     <div class='tabs'>
                         <h3 class='tabs__littleTitle'>RESTAURANT</h3>
                         <h1 class='tabs__title'>MENU</h1>
-                        <p class='tab tab_active' id='all_tab' onClick={tab('all')}>ALL</p>
-                        <p class='tab' id='starters_tab' onClick={tab('starters')}>STARTERS</p>
-                        <p class='tab' id='main_tab' onClick={tab('main')}>MAIN</p>
-                        <p class='tab' id='desert_tab' onClick={tab('desert')}>DESERT</p>
-                        <p class='tab' id='daily_tab' onClick={tab('daily')}>DAILY MENU</p>
-                        <p class='tab' id='chef_tab' onClick={tab('chef')}>CHEF'S SPECIALITY</p>
-                        <p class='tab' id='offers_tab' onClick={tab('offers')}>OFFERS</p>
+                        <p class='tab tab_active' id='all_tab' onClick={() => tab('all')}>ALL</p>
+                        <p class='tab' id='starters_tab' onClick={() => tab('starters')}>STARTERS</p>
+                        <p class='tab' id='main_tab' onClick={() => tab('main')}>MAIN</p>
+                        <p class='tab' id='desert_tab' onClick={() => tab('desert')}>DESERT</p>
+                        <p class='tab' id='daily_tab' onClick={() => tab('daily')}>DAILY MENU</p>
+                        <p class='tab' id='chef_tab' onClick={() => tab('chef')}>CHEF'S SPECIALITY</p>
+                        <p class='tab' id='offers_tab' onClick={() => tab('offers')}>OFFERS</p>
                     </div>
                     <div class='contents'>
                         <div class='content content_active' id='all_content'>
